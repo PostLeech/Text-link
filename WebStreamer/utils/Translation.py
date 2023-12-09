@@ -17,13 +17,12 @@ class Language(object):
 <b>» I ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴇxᴛᴇʀɴᴀʟ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ !.</b>
 <b>» ᴅᴏᴡɴʟᴏᴀᴅ Lɪɴᴋ Wɪᴛʜ Fᴀsᴛᴇsᴛ Sᴘᴇᴇᴅ</b>\n
 <u>🔸 𝗪𝗔𝗥𝗡𝗜𝗡𝗚 🚸</u>
-<b>🔞 Pʀᴏɴ ᴄᴏɴᴛᴇɴᴛꜱ ʟᴇᴀᴅꜱ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ ʏᴏᴜ.</b>\n
-<b>Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ (ᴏʀ) ʀᴇᴘᴏʀᴛ ʙᴜɢꜱ</i></b><b>: <a href='https://t.me/{}'>[ ᴄʟɪᴄᴋ ʜᴇʀᴇ ]</a></b>"""
+<b>🔞 Pʀᴏɴ ᴄᴏɴᴛᴇɴᴛꜱ ʟᴇᴀᴅꜱ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ ʏᴏᴜ.</b>"""
 
         ABOUT_TEXT = """
-<b>⚜ Mʏ ɴᴀᴍᴇ : File To Link V2</b>\n
-<b>🔸Vᴇʀꜱɪᴏɴ : 2.2</b>\n
-<b>🔹Lᴀꜱᴛ ᴜᴘᴅᴀᴛᴇᴅ : [29-Aug-2023 ] 09:57 AM</b>
+<b>⚜ Mʏ ɴᴀᴍᴇ : File To Link</b>\n
+<b>🔸Vᴇʀꜱɪᴏɴ : 2.4</b>\n
+<b>🔹Lᴀꜱᴛ ᴜᴘᴅᴀᴛᴇᴅ : [08-Dec-2023 ] 09:57 AM</b>
 """
 
         stream_msg_text ="""
@@ -34,7 +33,7 @@ class Language(object):
 <b>🖥 Wᴀᴛᴄʜ :</b> <i>{}</i>\n\n
 <b>🔸<u>Nᴏᴛᴇ</u> : Aʟʟ Cʀᴇᴀᴛᴇᴅ Lɪɴᴋꜱ Wɪʟʟ Exᴘɪʀᴇ Aꜰᴛᴇʀ 24 Hᴏᴜʀꜱ</b>"""
 
-        ban_text="__Sᴏʀʀʏ Sɪʀ, Yᴏᴜ Aʀᴇ Bᴀɴɴᴇᴅ Tᴏ Usᴇ Mᴇ.__\n\n**[Cᴏɴᴛᴀᴄᴛ Dᴇᴠᴇʟᴏᴘᴇʀ](t.me/M2linksCommunity) Tʜᴇʏ Wɪʟʟ Hᴇʟᴘ Yᴏᴜ**"
+        ban_text="__Sᴏʀʀʏ Sɪʀ, Yᴏᴜ Aʀᴇ Bᴀɴɴᴇᴅ Tᴏ Usᴇ Mᴇ.__\n\n**[Cᴏɴᴛᴀᴄᴛ Dᴇᴠᴇʟᴏᴘᴇʀ](t.me/yourx) Tʜᴇʏ Wɪʟʟ Hᴇʟᴘ Yᴏᴜ**"
 
 # ------------------------------------------------------------------------------
 
@@ -44,8 +43,6 @@ class BUTTON(object):
         InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
         InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close')
-        ],
-        [InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ", url=f'https://t.me/{Var.UPDATES_CHANNEL}')]
         ]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
@@ -53,8 +50,6 @@ class BUTTON(object):
         InlineKeyboardButton('Hᴏᴍᴇ', callback_data='home'),
         InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close')
-        ],
-        [InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ", url=f'https://t.me/{Var.UPDATES_CHANNEL}')]
         ]
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
@@ -62,7 +57,5 @@ class BUTTON(object):
         InlineKeyboardButton('Hᴏᴍᴇ', callback_data='home'),
         InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
         InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close')
-        ],
-        [InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ", url=f'https://t.me/{Var.UPDATES_CHANNEL}')]
         ]
     )
